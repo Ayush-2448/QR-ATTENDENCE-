@@ -1,0 +1,140 @@
+body {
+    background-color: #8000FF;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: black
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color:black;
+}
+
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .code-inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .code-inputs input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(231, 237, 247);
+  }
+  
+  .code-inputs input:focus {
+    border-color: #8000ff;
+    outline: none;
+  }
+  
+  .resend {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  
+  .resend a {
+    color: #8000ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .verify-btn {
+    background-color: #4B2FBF;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .verify-btn:hover {
+    background-color: #46da90;
+  }
+  
+  .divider {
+    margin: 15px 0;
+    font-size: 14px;
+  }
+  
+ 
+  
+  .google-btn, .whatsapp-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.google-btn {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.google-btn:hover {
+    background-color: #46da90;
+}
+
+.whatsapp-btn {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.whatsapp-btn:hover {
+    background-color:#46da90;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #8000FF;
+    text-decoration: none;
+}
